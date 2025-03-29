@@ -25,10 +25,10 @@ int main() {
     printf("Digite o Nome da cidade \n:");
     scanf("%s", &nome_C1 );
 
-    printf("Digite a Populaçao \n:");
+    printf("Digite o numero de habitantes \n:");
     scanf("%d", &hab_C1);
 
-    printf("Digite a Área \n:");
+    printf("Digite a Área (KM²) \n:");
     scanf("%f", &area_C1);
 
     printf("Digite o PIB \n:");
@@ -48,7 +48,7 @@ int main() {
     printf("Digite o Nome da cidade \n:");
     scanf("%s", &nome_C2 );
 
-    printf("Digite a Populaçao \n:");
+    printf("Digite o numero de habitantes \n:");
     scanf("%d", &hab_C2);
 
     printf("Digite a Área \n:");
