@@ -5,13 +5,11 @@ int main() {
 //variaveis carta 1
     int hab_C1,  pontos_turis_C1;
     float area_C1, PIB_C1;
-    char nome_C1[50], Cod_C1[50];
-    char estado1;
+    char nome_C1[50], Cod_C1[10], estado1;
 //variaveis carta 2
     int hab_C2,  pontos_turis_C2;
     float area_C2, PIB_C2;
-    char nome_C2[50], Cod_C2[50];
-    char estado2;
+    char nome_C2[50], Cod_C2[10], estado2
 //codigo de entrada.
 //carta1-----------------------------------------
     printf("---->Carta 1<---- \n");
@@ -20,7 +18,7 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("Digite o Codigo Ex(S01) \n:");
-    scanf("%s", &Cod_C1);
+    scanf("%9s", &Cod_C1);
 
     printf("Digite o Nome da cidade \n:");
     scanf("%s", &nome_C1 );
@@ -43,7 +41,7 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Digite o Codigo \n:");
-    scanf("%s", &Cod_C2);
+    scanf("%9s", &Cod_C2);
 
     printf("Digite o Nome da cidade \n:");
     scanf("%s", &nome_C2 );
@@ -81,7 +79,7 @@ int main() {
 
 
 
-return 0;
+    return 0;
 
 }
 
