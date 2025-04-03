@@ -128,11 +128,11 @@ int main() {
 
     superpoder2 = (float) populacao2 + area_C2 + PIB_C2 + (float) pontos_turis_C2 + densi_populacional2 + PIB_per_capita2;
     printf("superpoder2: %.2f\n", superpoder2);
-//comparcao----------------------------------------------------------------------
+//comparacao----------------------------------------------------------------------
  
     printf("--------Comparando Cartas--------\n");
 
-    printf("                         carta 1 vence: (1) ---- carta 2 vence: (0) \n");
+    printf("                             ----> carta 1 vence: (1) ---- carta 2 vence: (0) <---- \n");
 
     printf("Populaçao: %d\n", populacao1 > populacao2);
 
